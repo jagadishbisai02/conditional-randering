@@ -33,6 +33,11 @@ const {isLoggedIn} = this.state
 
     by using ternary operating
     {isLoggedIn ? <button>Logout</button> : <button>Login</button>}
+    
+    
+    last one logical && relational
+    {isLoggedIn && <button>Logout</button>}
+    {!isLoggedIn && <button>Login</button>}
     */
 
   render() {
